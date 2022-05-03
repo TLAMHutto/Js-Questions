@@ -1,0 +1,63 @@
+[
+    {
+        "question": "What is JavaScript?",
+        "answer": "JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers. JavaScript is also an Object-based Programming language"
+    }, 
+    {
+        "question": "Explain event delegation.",
+        "answer": "Event Delegation is basically a pattern to handle events efficiently. Instead of adding an event listener to each and every similar element, we can add an event listener to a parent element and call an event on a particular target using the . target property of the event object."
+    }, 
+    {
+        "question": "Explain how the keyword (this) works in JavaScript",
+        "answer": "In most cases, the value of this is determined by how a function is called (runtime binding). It can't be set by assignment during execution, and it may be different each time the function is called."
+    },
+    {
+        "question": "Explain how prototypal inheritance works.",
+        "answer": "So, the core idea of Prototypal Inheritance is that an object can point to another object and inherit all its properties. The main purpose is to allow multiple instances of an object to share common properties, hence, the Singleton Pattern."
+    },
+    {
+        "question": "What's the difference between a variable that is: null, undefined or undeclared?",
+        "answer": "Null is pointing to nothing in memory. Undefined is a variable that has not been assigned any value. Lastly, undeclared is a variable that has not been properly declared using const, var, or let."
+    },
+    {
+        "question": "What is a closure, and how/why would you use one?",
+        "answer": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function."
+    },
+    {
+        "question": "What language constructions do you use for iterating over object properties and array items?",
+        "answer": "To iterate through an array of objects in JavaScript, you can use the forEach() method aong with the for...in loop"
+    },
+    {
+        "question": "Can you describe the main difference between the Array.forEach() loop and Array.map() methods and why you would pick one versus the other?",
+        "answer": "As always, the choice between map() and forEach() will depend on your use case. If you plan to change, alternate, or use the data, you should pick map(), because it returns a new array with the transformed data. But, if you won't need the returned array, don't use map() - instead use forEach() or even a for loop."
+    },
+    {
+        "question": "What's a typical use case for anonymous functions?",
+        "answer": "An anonymous function is a function that does not have any name associated with it. Normally we use the function keyword before the function name to define a function in JavaScript, however, in anonymous functions in JavaScript, we use only the function keyword without the function name."
+    },
+    {
+        "question": "What's the difference between host objects and native objects?",
+        "answer": "Native objects are objects that adhere to the specs, i.e. (standard objects). Host objects are objects that the browser (or other runtime environment like Node) provides."
+    },
+    {
+        "question": "Explain Function.prototype.bind",
+        "answer": "The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called."
+    },
+    {
+        "question": "What's the difference between feature detection, feature inference, and using the UA string?",
+        "answer": "Feature detection is just a way of determining if a feature exists in certain browsers."
+    },
+    {
+        "question": "What is hoisting.",
+        "answer": "JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. Hoisting allows functions to be safely used in code before they are declared."
+    },
+    {
+        "question": "Describe event bubbling",
+        "answer": "Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle to that event. It is a process that starts with the element that triggered the event and then bubbles up to the containing elements in the hierarchy. In event bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements."
+    },
+    {
+        "question": "Describe event capturing.",
+        "answer": "In event capturing, an event propagates from the outermost element to the target element. It is the opposite of event bubbling, where events propagate outwards from the target to the outer elements. Capturing happens before bubbling. The three phases of event propagation are: capturing, target, and bubbling."
+    }
+
+]
