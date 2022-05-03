@@ -1,5 +1,5 @@
 $.ajax({
-    url: "./questions.json",
+    url: "./jsQuestions.json",
     method: "GET",
     success: function(data){
         var randomObject = data[Math.floor(Math.random() * data.length)];
@@ -17,7 +17,7 @@ $("#btnFlip").on('click' ,function(){
 $("#btnNext").on('click', function(e){
     e.preventDefault();
     $.ajax({
-        url: "./questions.json",
+        url: "./jsQuestions.json",
         method: "GET",
         success: function(data){
             var randomObject = data[Math.floor(Math.random() * data.length)];
